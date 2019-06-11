@@ -337,6 +337,7 @@ main{
     display: grid;
     justify-content: center;
     align-content: center;
+    padding-bottom: 20px;
 }
 
 .accesoimg img{
