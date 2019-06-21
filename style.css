@@ -262,6 +262,10 @@ main{
     
 }
 
+.c{
+    background:#fff0e5;
+}
+
 .text p{
     color:;
     
@@ -424,6 +428,11 @@ input{
     background: rgba(237,0,140,0.1);
     border: 1px solid #ed008c;
     
+}
+
+.cinput{
+    border: 1px solid #ff6900;
+    background: rgba(255,105,0,0.1);
 }
 
 #boton{
@@ -615,6 +624,11 @@ footer{
     border-style: 1px solid #fff;
     border: 1px solid #ed008c;
     border-radius: 10px;
+}
+
+.cboton1{
+    background-color: #ff6900;
+    border: 1px solid #f9423A;
 }
 
 
