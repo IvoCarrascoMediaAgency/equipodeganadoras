@@ -589,6 +589,9 @@ input{
 footer{
     background: #fde5f3
 }
+.cfooter{
+    background:  #fff0e5;
+}
 
 .diseño {
     font-size: 0.8em;
