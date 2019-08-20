@@ -339,7 +339,7 @@ main{
     display: grid;
     justify-content: center;
     align-content: center;
-    padding-bottom: 20px;
+    
 }
 
 .accesoimg img{
@@ -366,6 +366,22 @@ main{
 
 }
 
+.menumama{
+    height: 30px;
+}
+.menumama a span.flechatipica{
+	position: absolute;
+	
+    width: 100%;
+
+	font-size: 3em;
+	overflow: hidden;
+    display: block;
+    text-align: center;
+    
+	
+}
+
 
 .icon-flecha-down:before{
 	animation: example 1s linear 1s infinite alternate;
@@ -373,8 +389,8 @@ main{
 }
 
 @keyframes example {
-    from {top:0; color: #25D366}
-    to {top:10px; color: #128C7E;}
+    from {top:0; color: #fde5f3}
+    to {top:7px; color: #ed008c;}
 }
 
 
