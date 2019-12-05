@@ -426,6 +426,15 @@ form{
 
 }
 
+.videoganadoras{
+    width: 100%;
+    height: 190px;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
 .textgracias {
     width: 80%;
     margin: auto 30px;
