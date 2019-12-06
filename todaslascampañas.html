@@ -191,9 +191,7 @@
                         </div>
 
 
-                        <div class="videoganadoras">
-                            <iframe class="videotodas" src="https://www.youtube.com/embed/PDWbGEekmEE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                      
 
                         <div class="videoganadoras">
                             <iframe class="videotodas" src="https://www.youtube.com/embed/ZVvuU7zrZn4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -209,7 +207,7 @@
                             <h2 class="text3">Inscríbete hoy y recibe catálogos físicos y virtuales</h2>
                         </div>
 
-                        <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
+                        <form id="gform gform1" name="gform gform1" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
                             <label for="entry.837339703" ></label>
                             <input type="text" name="entry.837339703" id="entry.837339703" placeholder="Nombre" title="Por favor escribe tu nombre" required><br>
                             <label for="entry.767671369" ></label>
@@ -237,7 +235,7 @@
                                 <h2 class="text3">Inscríbete hoy y recibe catálogos físicos y virtuales</h2>
                             </div>
 
-                        <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
+                        <form id="gform gform2" name="gform gform2" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
                             <label for="entry.837339703" ></label>
                             <input type="text" name="entry.837339703" id="entry.837339703" placeholder="Nombre" title="Por favor escribe tu nombre" required><br>
                             <label for="entry.767671369" ></label>
@@ -260,7 +258,7 @@
                                 <h2 class="text3">Inscríbete hoy y recibe catálogos físicos y virtuales</h2>
                             </div>
 
-                        <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
+                        <form id="gform gform3" name="gform gform3" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdvYulE2DdH_vm87OYp3g7NHieNQgp08EA7pLjb-tVs8QJqbQ/formResponse?">
                             <label for="entry.837339703" ></label>
                             <input type="text" name="entry.837339703" id="entry.837339703" placeholder="Nombre" title="Por favor escribe tu nombre" required><br>
                             <label for="entry.767671369" ></label>
@@ -310,9 +308,9 @@
         var submitted = false;
         </script>
         <script type="text/javascript">
-        $('#gform').on('submit',function(e){
-            $('#gform *').fadeOut(2000);
-            $('#gform').prepend('¡Gracias por inscribirte! enseguida te enviaremos catálogos de campaña 19 a tu WhatsApp')
+        $('#gform','#gform1','#gform2','#gform3'.on('submit',function(e){
+            $('#gform *','#gform1 *','#gform2 *','#gform3*').fadeOut(2000);
+            $('#gform','#gform1','#gform2','#gform3').prepend('¡Gracias por inscribirte! enseguida te enviaremos catálogos de campaña 19 a tu WhatsApp')
         });
         </script>
  
