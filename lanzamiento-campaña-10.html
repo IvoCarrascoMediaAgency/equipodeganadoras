@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="icons/iconos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Damion|Roboto" rel="stylesheet">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <title>Avon Equipo de ganadoras | Inscribirse en Avon</title>
     <!-- Facebook Pixel Code -->
@@ -176,7 +177,9 @@
                         <label for="entry.767671369" ></label>
                         <input type="number" name="entry.767671369" id="entry.767671369" placeholder="WhatsApp" title="Por favor escribe tu numero de WhatsApp" required><br>
 
-                        <input type="submit" name="" onclick="window.open('https://api.whatsapp.com/send?phone=593980687988&text=Saludos,%20deseo%20m%C3%A1s%20informaci%C3%B3n%20y%20cat%C3%A1logos')" value="Enviar">
+
+                        
+                        <input type="submit" id="enviarwa" target="_blank" name="" onclick="goToPage();" value="Enviar">
       
 
 
